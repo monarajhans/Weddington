@@ -1,0 +1,104 @@
+$red: red;
+$white: white;
+$black: black;
+$grey: #DDDDDD;
+
+body{
+  color: $red;
+
+  .menu .nav-tabs {
+    border-bottom: 0.5em solid #ddd;
+  }
+
+  #float_right{
+    float: right;
+
+    span{
+      font-size: 13pt;
+    }
+  }
+
+  .shop-exclusive-collection{
+    height: 30em;
+    background: url(shop_exclusive_collection.png) no-repeat;
+    background-size: 100%;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    div {
+      padding-top: 6em;
+      text-align: center;
+      display: inline-block;
+
+      & h1{
+        font-size: 35pt;
+      }
+      & p {
+        font-size: 14pt;
+      }
+      & button {
+        font-size: 14pt;
+        padding: 1em;
+        background-color: $black;
+        border: $black;
+      }
+    }
+  }
+
+  .product-ease {
+    text-align: center;
+    ul{
+      padding: 2em 0 2em 0;
+    }
+  }
+
+  .dresses_preview {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 20em;
+    padding: 3em 0 1em 0;
+    border-bottom: 1px solid $grey;
+    .glyphicon {
+      font-size: 4em;
+      text-align: center;
+      display: inline-block;
+      padding: 0;
+      top: 23%;
+      color: $grey;
+    }
+    .dresses_preview_dresses {
+      height: inherit;
+      padding: 3.65em;
+    }
+    .dresses_1 {
+      background: url(dresses_1.png) no-repeat;
+    }
+    .dresses_2 {
+      background: url(dresses_2.png) no-repeat;
+    }
+    .dresses_3 {
+      background: url(dresses_3.png) no-repeat;
+    }
+    .dresses_4 {
+      background: url(dresses_4.png) no-repeat;
+    }
+    .dresses_5 {
+      background: url(dresses_5.png) no-repeat;
+    }
+    .dresses_6 {
+      background: url(dresses_6.png) no-repeat;
+    }
+    .dresses_7 {
+      background: url(dresses_7.png) no-repeat;
+    }
+    .dresses_8 {
+      background: url(dresses_8.png) no-repeat;
+    }
+    .dresses_9 {
+      background: url(dresses_9.png) no-repeat;
+    }
+  }
+}
